@@ -1,0 +1,25 @@
+{
+  "name": "angular-adminlte",
+  "authors": [
+    "Ilman Maulana <ilman.maulana@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "AdminLTE": "adminlte#~2.3.3",
+    "angular": "angularjs#~1.5.5",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.6.1"
+  }
+}
