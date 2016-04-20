@@ -8,4 +8,14 @@ adminApp.directive('includeReplace', function () {
             el.replaceWith(el.children());
         }
     };
+})
+.directive('sidebarTree', function () {
+    return {
+    	restrict: 'A', /* optional */
+        link: function (scope, el, attrs) {
+            
+        	$.AdminLTE.tree('.'+attrs.class);
+
+        }
+    };
 });
